@@ -1,8 +1,9 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
----
+  title: "Template Chapter 1"
+  description: "This is a template chapter."
+  v2: true
 
+---
 ## An exercise title written in sentence case
 
 ```yaml
@@ -10,14 +11,17 @@ type: NormalExercise
 lang: r
 xp: 100
 skills: 1
-key: 18561147d2
+key: 765274ce6c
+
+
+
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+We will be using the dataset API, a random sample of students containing their academic results
+
 
 `@instructions`
-- Instruction 1
+- Load the survey package
 - Instruction 2
 - Instruction 3
 - Instruction 4
@@ -29,13 +33,10 @@ The instructions that follow should be in bullet point form with clear guidance 
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{r}
 # Load datasets and packages here.
 ```
-
 `@sample_code`
-
 ```{r}
 # Your
 # sample
@@ -47,19 +48,19 @@ The instructions that follow should be in bullet point form with clear guidance 
 # with a max
 # of 16 lines.
 ```
-
 `@solution`
-
 ```{r}
 # Answer goes here
 # Make sure to match the comments with your sample code
 # to help students see the differences from solution
 # to given.
 ```
-
 `@sct`
-
 ```{r}
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
+
+
+
+
